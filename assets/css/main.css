@@ -1,15 +1,4 @@
-/**
-* Template Name: SnapFolio
-* Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
-* Updated: Jul 21 2025 with Bootstrap v5.3.7
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Outfit, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -184,7 +173,7 @@ h6 {
 }
 
 .header .social-links a:hover {
-  color: var(--contrast-color);
+  color: #ffa900;
   background: var(--accent-color);
 }
 
@@ -1276,11 +1265,11 @@ section,
 
 .skills .skill-item .skill-percentage {
   font-size: 14px;
-  color: color-mix(in srgb, var(--heading-color), transparent 30%);
+  color: color-mix(in srgb, #ffa900, transparent 5%);
 }
 
 .skills .skill-item .progress {
-  height: 8px;
+  height: 6px;
   background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
   border-radius: 20px;
   overflow: hidden;
@@ -1297,7 +1286,7 @@ section,
 
 .skills .skill-item .skill-tooltip {
   font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, #ffa900, transparent 30%);
   margin-top: 8px;
   opacity: 0;
   transform: translateY(-5px);
@@ -1578,12 +1567,12 @@ section,
 
 .portfolio .portfolio-filters li:hover {
   color: var(--accent-color);
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  border-left-color: color-mix(in srgb, var(--accent-color), transparent 50%);
+  background-color: color-mix(in srgb, #ffa900, transparent 90%);
+  border-left-color: color-mix(in srgb, #ffa900, transparent 50%);
 }
 
 .portfolio .portfolio-filters li.filter-active {
-  color: var(--accent-color);
+  color: #ffa900;
   background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
   border-left-color: var(--accent-color);
   font-weight: 600;
@@ -1611,7 +1600,7 @@ section,
   left: 0;
   right: 0;
   padding: 25px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, #191983 0%, #191983a1, #19198300 100%);
   z-index: 3;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateY(20px);
@@ -1635,7 +1624,7 @@ section,
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: var(--contrast-color);
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: 15px;
 }
